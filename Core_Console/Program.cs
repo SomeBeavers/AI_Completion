@@ -4,7 +4,7 @@ int t = 1;
 Console.WriteLine(t);
 int t2 = 2;
 Console.WriteLine(t2);
-GetSum();
+GetSum(null, 0);
 
 
 void GetSum(string s, int t)
@@ -12,8 +12,9 @@ void GetSum(string s, int t)
 	int sum = t + t2;
 	Console.WriteLine(sum);
 	int t3 = 3;
-	Console.WriteLine(t3);
+
 	void Test()
 	{
+		Console.WriteLine(t3);
 	}		
 }
