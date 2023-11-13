@@ -9,7 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\Shared\Shared1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Multi\Multi.csproj" />
   </ItemGroup>
+
+  <Import Project="..\Shared\Shared.projitems" Label="Shared" />
 
 </Project>

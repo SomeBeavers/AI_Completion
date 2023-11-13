@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Framework", "Wpf_Framew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework_Console_Old", "Framework_Console_Old\Framework_Console_Old.csproj", "{B3436961-068D-4028-B69B-8FA88EDDDE1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multi", "Multi\Multi.csproj", "{B8A00117-B660-4697-BA19-17293165EFF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multi", "Multi\Multi.csproj", "{B8A00117-B660-4697-BA19-17293165EFF2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{000542CB-B192-4040-99A8-B808EEE43EE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +41,10 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDF552BC-1D0B-484D-BFBF-8CA03275702B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{000542cb-b192-4040-99a8-b808eee43ee0}*SharedItemsImports = 13
+		Shared\Shared.projitems*{6602f20b-fa18-485d-9a89-cec04932027f}*SharedItemsImports = 5
+		Shared\Shared.projitems*{b3436961-068d-4028-b69b-8fa88eddde1e}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal

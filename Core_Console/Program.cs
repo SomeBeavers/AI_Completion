@@ -11,6 +11,10 @@ GetSum(null, 0);
 
 var multi1 = new Multi1();
 
+	
+
+	
+
 
 void GetSum(string s, int t)
 {

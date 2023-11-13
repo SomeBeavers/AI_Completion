@@ -6,12 +6,19 @@
 		public void Test()
 		{
 		}
-#endif
-		public string GetName()
+
+				public string GetName()
 		{
 			return Name;
 		}
 
 		public string Name { get; set; }
+#else
+
+		public void Method1(string name)
+		{
+
+		}
+#endif
 	}
 }
