@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\Framework_Console_Old\Person.cs" Link="Person.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Multi\Multi.csproj" />
   </ItemGroup>
 

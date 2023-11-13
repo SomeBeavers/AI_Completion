@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Framework_Console_Old;
 using Multi;
 
 Console.WriteLine("Hello, World!");
@@ -11,9 +12,9 @@ GetSum(null, 0);
 
 var multi1 = new Multi1();
 
-	
-
-	
+var person = new Person("", 1);
+var isItCore = person.IsItCore();
+Console.WriteLine(isItCore);
 
 
 void GetSum(string s, int t)
