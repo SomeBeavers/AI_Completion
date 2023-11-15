@@ -25,7 +25,6 @@ namespace TestCore
         {
             _stringWriter.Dispose();
         }
-
         [Test]
         public void PrintInfo_ShouldPrintOperatingSystem()
         {
@@ -66,7 +65,5 @@ namespace TestCore
             _systemInfoPrinter.PrintInfo();
             StringAssert.Contains("Machine Name: " + Environment.MachineName, _stringWriter.ToString());
         }
-        
-        
     }
 }
