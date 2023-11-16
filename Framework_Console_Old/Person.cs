@@ -7,7 +7,8 @@
 		public int Birth { get; set; }
         public override string ToString()
 		{
-			return $"Name: {Name}, Age: {Age}";
+            
+            return $"Name: {Name}, Age: {Age}";
         }
 	}
 }

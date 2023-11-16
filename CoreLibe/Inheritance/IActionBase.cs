@@ -2,5 +2,5 @@
 
 public interface IActionBase
 {
-    void InvokeAction();
+    bool InvokeAction(IEnumerable<object> parameters);
 }
