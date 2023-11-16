@@ -12,6 +12,7 @@ class DeleteAction : ActionBase
 {
     public override bool InvokeAction(IEnumerable<object> parameters)
     {
+        
         // Add custom implementation here
         return base.InvokeAction(parameters);
     }

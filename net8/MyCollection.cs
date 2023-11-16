@@ -10,7 +10,7 @@ public interface IMyCollection<T>
 public class MyCollection<T> : IMyCollection<T>
 {
     private List<T> items;
-    
+    public List<T> List { get; set; }
     
     public void AddItem(T item)
     {
@@ -30,6 +30,7 @@ public class MyCollection<T> : IMyCollection<T>
 
     public Task<bool> RemoveItemAsync(T item)
     {
+        
         throw new NotImplementedException();
     }
 }
@@ -37,8 +38,6 @@ public class MyCollection<T> : IMyCollection<T>
 
 enum MyEnum
 {
-    Value1,
-    Value2,
-    Value3
+    
 }
 
