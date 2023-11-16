@@ -2,4 +2,5 @@
 
 class Class11Impl : Class11
 {
+
 }
