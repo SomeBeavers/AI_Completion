@@ -7,8 +7,9 @@ public interface IMyCollection<T>
     Task<bool> RemoveItemAsync(T item);
 }
 
-public class MyCollection<T> : IMyCollection<T>
+public class MyCollection<T>() : IMyCollection<T>
 {
+    event 
     private List<T> items;
     public List<T> List { get; set; }
     
