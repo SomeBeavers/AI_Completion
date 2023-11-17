@@ -4,16 +4,9 @@ public class ActionBase : IActionBase
 {
     public virtual bool InvokeAction(IEnumerable<object> parameters)
     {
+        int t = 
+            0;
+        foreach (object parameter in parameters) { }
         return false;
-    }
-}
-
-class DeleteAction : ActionBase
-{
-    public override bool InvokeAction(IEnumerable<object> parameters)
-    {
-        
-        // Add custom implementation here
-        return base.InvokeAction(parameters);
     }
 }
