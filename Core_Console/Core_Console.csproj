@@ -16,6 +16,12 @@
     <ProjectReference Include="..\Multi\Multi.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Strings.resx">
+      <Generator>JetResourceGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
   <Import Project="..\Shared\Shared.projitems" Label="Shared" />
 
 </Project>
